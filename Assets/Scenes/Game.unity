@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.6860348, g: 0.84667957, b: 0.91357446, a: 1}
+  m_IndirectSpecularColor: {r: 0.6782224, g: 0.8512745, b: 0.90492195, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -251,7 +251,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.067876, y: 2.617252, z: 3.486091}
+  m_Size: {x: 5, y: 5, z: 4}
   m_Center: {x: -0.21429877, y: 0.3086266, z: 0.04660657}
 --- !u!23 &103068387
 MeshRenderer:
@@ -2585,7 +2585,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.067876, y: 2.617252, z: 3.486091}
+  m_Size: {x: 5, y: 5, z: 4}
   m_Center: {x: -0.21429877, y: 0.3086266, z: 0.04660657}
 --- !u!23 &2018778566
 MeshRenderer:
@@ -3157,7 +3157,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.067876, y: 2.617252, z: 3.486091}
+  m_Size: {x: 5, y: 5, z: 4}
   m_Center: {x: -0.21429877, y: 0.3086266, z: 0.04660657}
 --- !u!114 &3351125692998827350
 MonoBehaviour:

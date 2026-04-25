@@ -22,7 +22,7 @@ public class View : MonoBehaviour
 
     public void ChangePointsText(string text)
     {
-        _pointsText.text = "score: "+ text;
+        _pointsText.text = "ОЧКИ: "+ text;
     }
     public void EnableEndGamePanel(bool value)
     {

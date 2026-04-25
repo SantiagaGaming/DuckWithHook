@@ -83,7 +83,7 @@ PlayerSettings:
   androidApplicationEntry: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-  runInBackground: 1
+  runInBackground: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
@@ -143,7 +143,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 0.1.0
+  bundleVersion: 0.6.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -174,7 +174,7 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 5
   AndroidMinSdkVersion: 25
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -585,6 +585,9 @@ PlayerSettings:
   - serializedVersion: 3
     m_BuildTarget: Android
     m_Formats: 01000000
+  - serializedVersion: 3
+    m_BuildTarget: WebGL
+    m_Formats: 05000000
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -823,17 +826,17 @@ PlayerSettings:
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
   webGLMemorySize: 16
-  webGLExceptionSupport: 1
+  webGLExceptionSupport: 2
   webGLNameFilesAsHashes: 0
   webGLShowDiagnostics: 0
   webGLDataCaching: 1
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Default
+  webGLTemplate: PROJECT:YandexGames
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 1
+  webGLCompressionFormat: 0
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -851,8 +854,17 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: APPMETRICA_ADREVENUE_ADAPTER_IRONSOURCE_V9_AUTO_ENABLED;LEVELPLAY_DEPENDENCIES_INSTALLED
-    iPhone: APPMETRICA_ADREVENUE_ADAPTER_IRONSOURCE_V9_AUTO_ENABLED
+    Android: APPMETRICA_ADREVENUE_ADAPTER_IRONSOURCE_V9_AUTO_ENABLED;LEVELPLAY_DEPENDENCIES_INSTALLED;PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
+    LinuxHeadlessSimulation: PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
+    Nintendo Switch: PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
+    PS4: PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
+    PS5: PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
+    Standalone: PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
+    WebGL: LEVELPLAY_DEPENDENCIES_INSTALLED;PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
+    Windows Store Apps: PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
+    XboxOne: PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
+    iPhone: APPMETRICA_ADREVENUE_ADAPTER_IRONSOURCE_V9_AUTO_ENABLED;PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
+    tvOS: PLUGIN_YG_2;TMP_YG2;NJSON_YG2;RU_YG2;StickyAdv_yg;YandexGamesPlatform_yg;InterstitialAdv_yg;Localization_yg
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -872,7 +884,7 @@ PlayerSettings:
     PS5: 1
     QNX: 1
     VisionOS: 1
-    WebGL: 1
+    WebGL: 4
     Windows Store Apps: 1
     XboxOne: 1
     iPhone: 1
